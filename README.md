@@ -7,7 +7,11 @@
 - [Findings and Insights](#findings-and-insights)
   
 ## Project Overview
-This project investigates the complex relationship between police presence and crime rates across U.S. counties. By examining socioeconomic, crime, and law enforcement data, this analysis provides insights into how policing practices impact crime reduction. Inspired by the study of Cornwell and Trumbull (1994), it explores potential strategies for effective crime control.
+This project investigates the complex relationship between police presence and crime rates across U.S. counties. By examining socioeconomic, crime, and law enforcement data, this analysis provides insights into how policing practices impact crime reduction. Inspired by the study of Cornwell and Trumbull (1994), it explores potential strategies for effective crime control. The analysis examines:
+- Crime Rate Trends: Investigates year-to-year changes in crime rates at the county level.
+- Law Enforcement Effectiveness: Evaluates the role of arrest probability, conviction rates, sentencing, and police per capita on crime deterrence.
+- Economic and Social Context: Considers the influence of factors like population density, tax rates, and labor market composition on crime rates.
+- Modeling Techniques: Builds a regression model to quantify the impact of police presence while addressing multicollinearity. 
 ## Data Description
 The dataset, crime4.csv, includes 51 variables across multiple counties and years. Key variables:
 - crmrte: Crime rate in each county.
